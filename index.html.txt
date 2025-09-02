@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bakkerij Kwakman – Vers brood sinds 1978</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"/>
+</head>
+<body>
+  <!-- Navigatie -->
+  <header>
+    <div class="container">
+      <nav>
+        <a href="#home" class="logo">Bakkerij Kwakman</a>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#producten">Producten</a></li>
+          <li><a href="#over-ons">Over ons</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="menu-toggle" id="menu-toggle">☰</div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Home -->
+  <section id="home" class="hero">
+    <h1>Bakkerij Kwakman – vers brood sinds 1978</h1>
+    <p>Traditioneel gebakken brood, ambachtelijk gebak en seizoensgebonden specialiteiten in het hart van Hilversum.</p>
+    <a href="#producten" class="btn">Ontdek onze producten</a>
+  </section>
+
+  <div class="container">
+    <!-- Producten -->
+    <section id="producten">
+      <h2 class="section-title">Onze Producten</h2>
+      <div class="products">
+        <div class="product-card">
+          <img src="assets/images/boerenbrood.jpg" alt="Boerenbrood">
+          <div class="product-info">
+            <h3>Boerenbrood</h3>
+            <p>Volmaand, knapperig korst en luchtig binnenwerk.</p>
+            <span class="price">€3,80</span>
+          </div>
+        </div>
+        <div class="product-card">
+          <img src="assets/images/stokbrood.jpg" alt="Stokbrood">
+          <div class="product-info">
+            <h3>Stokbrood</h3>
+            <p>Franse baguette met een heerlijke knapperige korst.</p>
+            <span class="price">€2,95</span>
+          </div>
+        </div>
+        <div class="product-card">
+          <img src="assets/images/appeltaart.jpg" alt="Appeltaart">
+          <div class="product-info">
+            <h3>Appeltaart</h3>
+            <p>Huisgemaakte appeltaart met een korst van zanddeeg.</p>
+            <span class="price">€4,50/stuk</span>
+          </div>
+        </div>
+        <div class="product-card">
+          <img src="assets/images/taart.jpg" alt="Taart">
+          <div class="product-info">
+            <h3>Seizoenscake</h3>
+            <p>Wisselende taart op basis van seizoensvruchten.</p>
+            <span class="price">€5,20/stuk</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Over ons -->
+    <section id="over-ons">
+      <h2 class="section-title">Over ons</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p><strong>Bakkerij Kwakman</strong> is al sinds 1978 een begrip in Hilversum. Wat begon als een kleine familiebakkerij is uitgegroeid tot een geliefde plek voor vers gebakken brood en ambachtelijk gebak.</p>
+          <p>Elke dag vroeg in de ochtend zetten wij de ovens aan om brood te bakken op basis van traditionele recepten. Wij werken met zorgvuldig geselecteerde ingrediënten, waarbij kwaliteit en smaak altijd voorop staan.</p>
+          <p>Onze bakkerij is nog steeds in handen van de familie Kwakman. De passie voor het ambacht wordt van generatie op generatie doorgegeven – met trots en liefde voor het vak.</p>
+        </div>
+        <div class="about-image">
+          <img src="assets/images/team.jpg" alt="Team Bakkerij Kwakman">
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+      <h2 class="section-title">Contact</h2>
+      <div class="contact-container">
+        <div class="contact-info">
+          <h3>Neem contact met ons op</h3>
+          <div class="contact-details">
+            <p><i>📍</i> <strong>Adres:</strong> Kerkstraat 12, 1211 CR Hilversum</p>
+            <p><i>🕒</i> <strong>Openingstijden:</strong><br>
+               Maandag - Vrijdag: 07:00 - 18:00<br>
+               Zaterdag: 07:00 - 16:00<br>
+               Zondag: Gesloten</p>
+            <p><i>📞</i> <strong>Telefoon:</strong> 035-1234567</p>
+            <p><i>✉️</i> <strong>E-mail:</strong> <a href="mailto:info@bakkerijkwakman.nl">info@bakkerijkwakman.nl</a></p>
+          </div>
+          <p>Wij staan altijd voor u klaar voor vragen over onze producten of bestellingen voor speciale gelegenheden.</p>
+        </div>
+        <div class="map-container">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1943.855632159254!2d5.178073!3d52.228792!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c66f5a2d1b8a5d%3A0x1234567890abcdef!2sKerkstraat%2012%2C%201211%20CR%20Hilversum!5e0!3m2!1snl!2snl!4v1640000000000!5m2!1snl!2snl" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Bakkerij Kwakman</h3>
+          <p>Kerkstraat 12, 1211 CR Hilversum</p>
+          <p>035-1234567</p>
+          <p>info@bakkerijkwakman.nl</p>
+        </div>
+        <div class="footer-section">
+          <h3>Openingstijden</h3>
+          <p>Maandag - Vrijdag: 07:00 - 18:00</p>
+          <p>Zaterdag: 07:00 - 16:00</p>
+          <p>Zondag: Gesloten</p>
+        </div>
+        <div class="footer-section">
+          <h3>Volg ons</h3>
+          <p>Laatste nieuws en lekkere foto's</p>
+          <div class="social-links">
+            <a href="#" aria-label="Facebook">f</a>
+            <a href="#" aria-label="Instagram">i</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2023 Bakkerij Kwakman. Alle rechten voorbehouden.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
